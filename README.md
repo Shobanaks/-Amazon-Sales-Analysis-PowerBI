@@ -1,7 +1,7 @@
 # 📊 Amazon Sales Analysis
 
 ## 📝 Project Overview
-This project analyzes **Amazon sales performance** using **Power BI**.  
+This project analyzes **Amazon sales performance** using **Power BI and Python**.  
 The dataset has been cleaned, processed, and enhanced with additional calculated columns to uncover insights related to **profitability**, **shipping performance**, and **sales trends**.
 
 ### Key Calculations
@@ -59,7 +59,8 @@ The dataset has been cleaned, processed, and enhanced with additional calculated
 ---
 
 ## 🧠 Tools Used
-- **Microsoft Power BI** — Data cleaning, modeling, and visualization  
+- **Microsoft Power BI** — visualization,modeling,
+- **Python (Pandas, Matplotlib)** — Data cleaning,Data preprocessing.
 ---
 
 ## 🚀 Future Enhancements
