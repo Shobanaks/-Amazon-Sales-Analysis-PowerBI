@@ -1,34 +1,75 @@
 # 📊 Amazon Sales Analysis
 
-### 📝 Project Overview
-This project analyzes Amazon sales performance using Power BI.  
-It includes cleaned and enriched data with calculated columns for better insights:
+## 📝 Project Overview
+This project analyzes **Amazon sales performance** using **Power BI**.  
+The dataset has been cleaned, processed, and enhanced with additional calculated columns to uncover insights related to **profitability**, **shipping performance**, and **sales trends**.
 
-- **Profit** — calculated for each transaction  
-- **Profit Margin** — (Profit ÷ Total Revenue)  
-- **Days Took To Ship** — difference between Ship Date and Order Date  
+### Key Calculations
+- **Profit** — calculated for each transaction (`Sales - Cost`)  
+- **Profit Margin** — `(Profit ÷ Sales) × 100`  
+- **Days Took To Ship** — difference between **Ship Date** and **Order Date**
 
-### 📁 Files Included
-| File Name | Description |
-|------------|-------------|
-| `Amazon_Sales_Rawdata.csv` | Original uncleaned sales data |
-| `Amazon_final_data.csv` | Cleaned and processed data with new columns |
-| `AmazonSalesData.pbix` | Power BI dashboard file |
-| `screenshots/` | Folder containing visual insights (charts) |
+---
 
-### 📊 Key Insights
-- Profit Margin and Days to Ship have been analyzed to evaluate performance.  
-- Power BI visuals highlight sales trends and profitability.  
-- Helps identify best-performing regions and potential delays in shipping.
+## 📘 Dataset Details
 
-### 🧠 Tools Used
-- **Microsoft Power BI** — Data cleaning and analysis,Visualization  
+| Dataset | Description |
+|----------|--------------|
+| `Amazon_Sales_Rawdata.csv` | Original uncleaned data collected from Amazon sales |
+| `Amazon_final_data.csv` | Cleaned and processed data used for visualization |
+| `AmazonSalesData.pbix` | Power BI dashboard file (visualization) |
 
-### 🚀 Future Enhancements
-- Added forecast visuals for yearly sales trends  
+### 📏 Dataset Size
+- **Rows:** ~1,000 (approx.)  
+- **Columns:** 18 (after adding new calculated columns)
 
-### 👩‍💻 Author
+### 📋 Columns Overview
+
+| Column Name | Description |
+|--------------|-------------|
+| `Order ID` | Unique ID for each order |
+| `Order Date` | Date when the order was placed |
+| `Ship Date` | Date when the order was shipped |
+| `Ship Mode` | Type of shipping used (e.g., Standard, Express) |
+| `Customer Name` | Name of the customer |
+| `Segment` | Customer segment (Consumer, Corporate, Home Office) |
+| `Country` | Country where the product was sold |
+| `City` | City of the customer |
+| `State` | State of the customer |
+| `Postal Code` | Postal/ZIP code |
+| `Region` | Sales region (e.g., East, West, Central) |
+| `Category` | Product category (e.g., Furniture, Technology, Office Supplies) |
+| `Sub-Category` | More specific product category |
+| `Product Name` | Name of the product sold |
+| `Sales` | Total sales amount |
+| `Quantity` | Number of units sold |
+| `Discount` | Discount applied on the product |
+| `Profit` | Net profit earned from each sale |
+| `Profit Margin` | Profitability percentage per order |
+| `Days Took To Ship` | Time (in days) taken to ship an order |
+
+---
+
+## 📊 Key Insights
+- Highest sales come from the **Technology** category with the best profit margins.  
+- **Standard shipping** is most used but also has **longer delivery times**.  
+- Certain regions show **low profit margins** due to higher discounts.  
+- Profit and margin trends highlight **seasonal peaks** in sales performance.  
+
+---
+
+## 🧠 Tools Used
+- **Microsoft Power BI** — Data cleaning, modeling, and visualization  
+---
+
+## 🚀 Future Enhancements
+- Added **forecast visuals** for yearly trends.  
+- Create **interactive filters** by region and product category.  
+---
+
+## 👩‍💻 Author
 **Shobana M**  
-[LinkedIn](https://www.linkedin.com/in/shobana-m-3542a933a)  
-Email: shobanamurugesan75@gmail.com  
+📧 Email: shobanamurugesan75@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/shobana-m-3542a933a)
+
 
